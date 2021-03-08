@@ -1,0 +1,6 @@
+framework module Pods_LiangDemo_Example {
+  umbrella header "Pods-LiangDemo_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

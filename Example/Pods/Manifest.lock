@@ -1,0 +1,16 @@
+PODS:
+  - LiangDemo (0.1.0)
+
+DEPENDENCIES:
+  - LiangDemo (from `../`)
+
+EXTERNAL SOURCES:
+  LiangDemo:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  LiangDemo: 73cdba4a38726f39000642fa364e9dc51b043dde
+
+PODFILE CHECKSUM: ff2dd0ac5567b6a96f257953a28fd1045ee18def
+
+COCOAPODS: 1.10.1

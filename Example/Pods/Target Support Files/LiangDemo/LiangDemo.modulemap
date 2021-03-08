@@ -1,0 +1,6 @@
+framework module LiangDemo {
+  umbrella header "LiangDemo-umbrella.h"
+
+  export *
+  module * { export * }
+}
