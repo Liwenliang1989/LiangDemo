@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'LiangDemo_Example' do
+  pod 'LiangDemo', :path => '../'
+
+  target 'LiangDemo_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
