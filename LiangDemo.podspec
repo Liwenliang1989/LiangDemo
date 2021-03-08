@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
 TODO: LiangDemo for test.
                        DESC
 
-  s.homepage         = 'https://github.com/Liwenliang1989'
+  s.homepage         = 'https://github.com/Liwenliang1989/LiangDemo'
   s.license          = 'MIT'
   s.author           = { '981851091@qq.com' => '981851091@qq.com' }
   s.source           = { :git => 'https://github.com/Liwenliang1989/LiangDemo.git', :tag => s.version.to_s }
