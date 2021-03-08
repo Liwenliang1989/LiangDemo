@@ -8,26 +8,27 @@
 
 /* Begin PBXBuildFile section */
 		06058C73CAA3B4AF383EEFA53A1CCB3D /* Pods-LiangDemo_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FD0990F55D8A3EB8BE93E6EDE02190DA /* Pods-LiangDemo_Example-dummy.m */; };
-		38695AC89EFB01BF161612E64D90CB48 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = B33213E33A2A899BACEC2F0A7C159213 /* ReplaceMe.m */; };
-		471BD1F8143C8AAF3B34E5D39C6876CE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		A47D40C89E76C7ECBD0D71BCA338882C /* LiangDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4662CFD2B7DFB0C7ECF5DD9A4E0AC188 /* LiangDemo-dummy.m */; };
+		2EB4851B8515F6BFC132363BBEA76F07 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		53F5FCF201527AF721D5C4BF62EC55F4 /* LiangDemo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9597B925AB48AA3573073440ABA418B3 /* LiangDemo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		54A1F66665E7590AC897D531C4D03456 /* WLBaseView.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B828966DF885FE49F58ED4FE14F609D /* WLBaseView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B39315244CA071414E1A43C4AB82C5F4 /* LiangDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 57943E7FC1E80091C1003ACD48B2C4A2 /* LiangDemo-dummy.m */; };
 		B411C1CC4963E79F69F745AF27E49D65 /* Pods-LiangDemo_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AC22C3655088E7623CDEA95BC69E5349 /* Pods-LiangDemo_Tests-dummy.m */; };
+		BA7213F5587CAE233B106724C7B3FC94 /* WLBaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = A59B42566B24631F95E4EB01CC4C4F08 /* WLBaseView.m */; };
 		C35294941468419A360E9CA723D5D9E0 /* Pods-LiangDemo_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0EAEA0E0D767B470C978ABF1A0AEB169 /* Pods-LiangDemo_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CCA75AB4E2832D0451F8CCD58B5F91DA /* Pods-LiangDemo_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9DBB574EE7D31BD14B0DDB3F03B822BC /* Pods-LiangDemo_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CD5FF7FD615A8D33C8D545BBD4131263 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		CFB6DA644C1939F89817EF62DC54771B /* LiangDemo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E08F507C50C88E3003328C96301A4CEE /* LiangDemo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D3BC53180F66660D86DD600623C80031 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		1900F4FEA5D244945F3607258E0E3617 /* PBXContainerItemProxy */ = {
+		71C788B6A5CF97942E8D8F463427F8DD /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 3DDE94537D94354C74772B5C1CE68C4F;
 			remoteInfo = LiangDemo;
 		};
-		AD7A06A86380BF026B17982F36B5F7CB /* PBXContainerItemProxy */ = {
+		885DB0478D374A4A6517E818616996B7 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -37,37 +38,38 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		084D7211E129FE7A5A974105C0E5E73B /* LiangDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LiangDemo.debug.xcconfig; sourceTree = "<group>"; };
+		0BA28CA3D3237EDF8591930758E90E95 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		0D7EEF207A9DA4D5CED1C72CBD947692 /* Pods-LiangDemo_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LiangDemo_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		0EAEA0E0D767B470C978ABF1A0AEB169 /* Pods-LiangDemo_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LiangDemo_Example-umbrella.h"; sourceTree = "<group>"; };
 		17A1F62D8DA3C427DDB8BDC203A9501B /* Pods-LiangDemo_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LiangDemo_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		2EDD6DE1332813CB573B2A34790A0586 /* LiangDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LiangDemo.debug.xcconfig; sourceTree = "<group>"; };
 		38141FB4FF5FD9493BFEE370669C1885 /* Pods-LiangDemo_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LiangDemo_Tests-Info.plist"; sourceTree = "<group>"; };
 		3FE0190788265CF8CB32E6F60377155F /* Pods-LiangDemo_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LiangDemo_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		412B72B9EB34FE54F20C4C5096A860C3 /* LiangDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LiangDemo.release.xcconfig; sourceTree = "<group>"; };
 		44F0276E494AD601C01693183C2B6D7F /* Pods-LiangDemo_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LiangDemo_Example.release.xcconfig"; sourceTree = "<group>"; };
-		4662CFD2B7DFB0C7ECF5DD9A4E0AC188 /* LiangDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LiangDemo-dummy.m"; sourceTree = "<group>"; };
+		4DCB796313F28DF66BBD1997F79B9FB9 /* LiangDemo.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = LiangDemo.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		57943E7FC1E80091C1003ACD48B2C4A2 /* LiangDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LiangDemo-dummy.m"; sourceTree = "<group>"; };
 		583B2FD649444F2CA6248DD6D11A8DAC /* Pods-LiangDemo_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LiangDemo_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		5AC61537CAA327AF2D174A7EC8140778 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		60138003DB319262AE892DF9295B677B /* LiangDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = LiangDemo.framework; path = LiangDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		65013514953D4E07E542AFC4EC219C8A /* LiangDemo.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = LiangDemo.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		68A819FC5EF3DD67B10F6C058E6BB82C /* Pods-LiangDemo_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LiangDemo_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		73B5DA9E6E4301BE492160B4F6DF4772 /* Pods-LiangDemo_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LiangDemo_Example-frameworks.sh"; sourceTree = "<group>"; };
 		7A9ABADF91948F367A0812A770106391 /* Pods-LiangDemo_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LiangDemo_Example.modulemap"; sourceTree = "<group>"; };
 		82A76C6087761404865C7E9E360CA512 /* Pods-LiangDemo_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LiangDemo_Tests.modulemap"; sourceTree = "<group>"; };
-		98D6A74DBED216159494EC2E4E0B120C /* LiangDemo-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "LiangDemo-Info.plist"; sourceTree = "<group>"; };
+		9597B925AB48AA3573073440ABA418B3 /* LiangDemo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LiangDemo-umbrella.h"; sourceTree = "<group>"; };
+		9B828966DF885FE49F58ED4FE14F609D /* WLBaseView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WLBaseView.h; path = LiangDemo/Classes/WLBaseView.h; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9DBB574EE7D31BD14B0DDB3F03B822BC /* Pods-LiangDemo_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LiangDemo_Tests-umbrella.h"; sourceTree = "<group>"; };
+		A59B42566B24631F95E4EB01CC4C4F08 /* WLBaseView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WLBaseView.m; path = LiangDemo/Classes/WLBaseView.m; sourceTree = "<group>"; };
+		AA47BF44EFAC94E7DAD0D12D7C18C34B /* LiangDemo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = LiangDemo.modulemap; sourceTree = "<group>"; };
 		AAAC9CB73D839DF8C9A19A2339A93502 /* Pods-LiangDemo_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LiangDemo_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		ABBD5674CB8AB987581EC3FAE393D201 /* LiangDemo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = LiangDemo.modulemap; sourceTree = "<group>"; };
 		AC22C3655088E7623CDEA95BC69E5349 /* Pods-LiangDemo_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LiangDemo_Tests-dummy.m"; sourceTree = "<group>"; };
 		AE80CE01B2545412E1FFFF76BCA1555C /* Pods-LiangDemo_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LiangDemo_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		B33213E33A2A899BACEC2F0A7C159213 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = LiangDemo/Classes/ReplaceMe.m; sourceTree = "<group>"; };
-		BCEE143343DF174B307C206BA7E72D19 /* LiangDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LiangDemo.release.xcconfig; sourceTree = "<group>"; };
-		C07E47EB719CDE564A3962ACE8C91BD7 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		B1305DD6FB28B46779D264B559551899 /* LiangDemo-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LiangDemo-prefix.pch"; sourceTree = "<group>"; };
+		BB71CA2DB2212BDA29E841F654F62E37 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		C326F2DB0D24AC395C657CFB918BA5F6 /* Pods_LiangDemo_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LiangDemo_Tests.framework; path = "Pods-LiangDemo_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		CFF13536E9BAB475EFFC08F8044E704C /* LiangDemo-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LiangDemo-prefix.pch"; sourceTree = "<group>"; };
-		E08F507C50C88E3003328C96301A4CEE /* LiangDemo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LiangDemo-umbrella.h"; sourceTree = "<group>"; };
 		E778D6F16169F9B5FC92B94FAC6293B5 /* Pods-LiangDemo_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LiangDemo_Example-Info.plist"; sourceTree = "<group>"; };
+		F623F4A491267D8ACDB7DAA938026710 /* LiangDemo-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "LiangDemo-Info.plist"; sourceTree = "<group>"; };
 		F78F65CADC723650FD42F058AC831736 /* Pods_LiangDemo_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LiangDemo_Example.framework; path = "Pods-LiangDemo_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD0990F55D8A3EB8BE93E6EDE02190DA /* Pods-LiangDemo_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LiangDemo_Example-dummy.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -81,19 +83,19 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		989D85CDFC81682EFEF73781700B18C3 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				471BD1F8143C8AAF3B34E5D39C6876CE /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		D342D1841D91BB820F1C6356855EFF43 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				CD5FF7FD615A8D33C8D545BBD4131263 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFF166B3877BA63D060350784D205331 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2EB4851B8515F6BFC132363BBEA76F07 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -126,17 +128,6 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		411BF363E094D5B8269123D6DE3FBF55 /* LiangDemo */ = {
-			isa = PBXGroup;
-			children = (
-				B33213E33A2A899BACEC2F0A7C159213 /* ReplaceMe.m */,
-				6DB201811878CD7B0AC621EA3504801B /* Pod */,
-				EC36F5D8DC52640ED003F9F531B2AA9B /* Support Files */,
-			);
-			name = LiangDemo;
-			path = ../..;
-			sourceTree = "<group>";
-		};
 		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -145,14 +136,34 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		6DB201811878CD7B0AC621EA3504801B /* Pod */ = {
+		5DB99546D6E6A8B4B64C03E76B53D03D /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				65013514953D4E07E542AFC4EC219C8A /* LiangDemo.podspec */,
-				C07E47EB719CDE564A3962ACE8C91BD7 /* LICENSE */,
-				5AC61537CAA327AF2D174A7EC8140778 /* README.md */,
+				79F5AAD81E9000369F0EAB3B1C4D07A2 /* LiangDemo */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		6BA3BACD56E6406A0CAE107ECD295629 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				4DCB796313F28DF66BBD1997F79B9FB9 /* LiangDemo.podspec */,
+				0BA28CA3D3237EDF8591930758E90E95 /* LICENSE */,
+				BB71CA2DB2212BDA29E841F654F62E37 /* README.md */,
 			);
 			name = Pod;
+			sourceTree = "<group>";
+		};
+		79F5AAD81E9000369F0EAB3B1C4D07A2 /* LiangDemo */ = {
+			isa = PBXGroup;
+			children = (
+				9B828966DF885FE49F58ED4FE14F609D /* WLBaseView.h */,
+				A59B42566B24631F95E4EB01CC4C4F08 /* WLBaseView.m */,
+				6BA3BACD56E6406A0CAE107ECD295629 /* Pod */,
+				EED395A9DD1FA8C080FFDDC08C0B1BA6 /* Support Files */,
+			);
+			name = LiangDemo;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		943E6CE8BA029E5B666EF5E5BB265925 /* Products */ = {
@@ -185,7 +196,7 @@
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				EC52FE57635CB1CB02CE9CFF052B6119 /* Development Pods */,
+				5DB99546D6E6A8B4B64C03E76B53D03D /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
 				943E6CE8BA029E5B666EF5E5BB265925 /* Products */,
 				27B573AB051C43AAE94802927E10AF49 /* Targets Support Files */,
@@ -200,27 +211,19 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		EC36F5D8DC52640ED003F9F531B2AA9B /* Support Files */ = {
+		EED395A9DD1FA8C080FFDDC08C0B1BA6 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				ABBD5674CB8AB987581EC3FAE393D201 /* LiangDemo.modulemap */,
-				4662CFD2B7DFB0C7ECF5DD9A4E0AC188 /* LiangDemo-dummy.m */,
-				98D6A74DBED216159494EC2E4E0B120C /* LiangDemo-Info.plist */,
-				CFF13536E9BAB475EFFC08F8044E704C /* LiangDemo-prefix.pch */,
-				E08F507C50C88E3003328C96301A4CEE /* LiangDemo-umbrella.h */,
-				2EDD6DE1332813CB573B2A34790A0586 /* LiangDemo.debug.xcconfig */,
-				BCEE143343DF174B307C206BA7E72D19 /* LiangDemo.release.xcconfig */,
+				AA47BF44EFAC94E7DAD0D12D7C18C34B /* LiangDemo.modulemap */,
+				57943E7FC1E80091C1003ACD48B2C4A2 /* LiangDemo-dummy.m */,
+				F623F4A491267D8ACDB7DAA938026710 /* LiangDemo-Info.plist */,
+				B1305DD6FB28B46779D264B559551899 /* LiangDemo-prefix.pch */,
+				9597B925AB48AA3573073440ABA418B3 /* LiangDemo-umbrella.h */,
+				084D7211E129FE7A5A974105C0E5E73B /* LiangDemo.debug.xcconfig */,
+				412B72B9EB34FE54F20C4C5096A860C3 /* LiangDemo.release.xcconfig */,
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/LiangDemo";
-			sourceTree = "<group>";
-		};
-		EC52FE57635CB1CB02CE9CFF052B6119 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				411BF363E094D5B8269123D6DE3FBF55 /* LiangDemo */,
-			);
-			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -234,11 +237,12 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A9D88A77085553E96FD0193FF940F049 /* Headers */ = {
+		C3911FF198E66ACCCB61F73B2252D681 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CFB6DA644C1939F89817EF62DC54771B /* LiangDemo-umbrella.h in Headers */,
+				53F5FCF201527AF721D5C4BF62EC55F4 /* LiangDemo-umbrella.h in Headers */,
+				54A1F66665E7590AC897D531C4D03456 /* WLBaseView.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -255,12 +259,12 @@
 /* Begin PBXNativeTarget section */
 		3DDE94537D94354C74772B5C1CE68C4F /* LiangDemo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3641605F0EBAE3C1ACA8B738348BCB52 /* Build configuration list for PBXNativeTarget "LiangDemo" */;
+			buildConfigurationList = 32BAB6030C2327C31D7CA76903C067A5 /* Build configuration list for PBXNativeTarget "LiangDemo" */;
 			buildPhases = (
-				A9D88A77085553E96FD0193FF940F049 /* Headers */,
-				7028CF3E9D40D2D35EC1E9B44DAD1714 /* Sources */,
-				989D85CDFC81682EFEF73781700B18C3 /* Frameworks */,
-				52FAE48A776379479AF610B6FA646C31 /* Resources */,
+				C3911FF198E66ACCCB61F73B2252D681 /* Headers */,
+				279D338149AB6F001B1F72E4E44970BD /* Sources */,
+				EFF166B3877BA63D060350784D205331 /* Frameworks */,
+				B154FC254EBBBDEEF3FB1AD9F3BA7A52 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -283,7 +287,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				CF6BA71931179B2374D9DF55E02A29BE /* PBXTargetDependency */,
+				F66C4E33980E97C15319992BCA7F9E7B /* PBXTargetDependency */,
 			);
 			name = "Pods-LiangDemo_Tests";
 			productName = "Pods-LiangDemo_Tests";
@@ -302,7 +306,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				4A5F71143787D9DBC03981BF29873152 /* PBXTargetDependency */,
+				0D37AEC5A73B449BBDB74EAF1091444F /* PBXTargetDependency */,
 			);
 			name = "Pods-LiangDemo_Example";
 			productName = "Pods-LiangDemo_Example";
@@ -346,14 +350,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		52FAE48A776379479AF610B6FA646C31 /* Resources */ = {
+		A8162019530B3DD7F16A73CD9D5D2041 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A8162019530B3DD7F16A73CD9D5D2041 /* Resources */ = {
+		B154FC254EBBBDEEF3FB1AD9F3BA7A52 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -363,6 +367,15 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		279D338149AB6F001B1F72E4E44970BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B39315244CA071414E1A43C4AB82C5F4 /* LiangDemo-dummy.m in Sources */,
+				BA7213F5587CAE233B106724C7B3FC94 /* WLBaseView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		40902FE06C07D51662A8C849DC8EE7D8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -379,29 +392,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7028CF3E9D40D2D35EC1E9B44DAD1714 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				A47D40C89E76C7ECBD0D71BCA338882C /* LiangDemo-dummy.m in Sources */,
-				38695AC89EFB01BF161612E64D90CB48 /* ReplaceMe.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		4A5F71143787D9DBC03981BF29873152 /* PBXTargetDependency */ = {
+		0D37AEC5A73B449BBDB74EAF1091444F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = LiangDemo;
 			target = 3DDE94537D94354C74772B5C1CE68C4F /* LiangDemo */;
-			targetProxy = 1900F4FEA5D244945F3607258E0E3617 /* PBXContainerItemProxy */;
+			targetProxy = 71C788B6A5CF97942E8D8F463427F8DD /* PBXContainerItemProxy */;
 		};
-		CF6BA71931179B2374D9DF55E02A29BE /* PBXTargetDependency */ = {
+		F66C4E33980E97C15319992BCA7F9E7B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-LiangDemo_Example";
 			target = 6107BD49CFF411FE57E638144046D270 /* Pods-LiangDemo_Example */;
-			targetProxy = AD7A06A86380BF026B17982F36B5F7CB /* PBXContainerItemProxy */;
+			targetProxy = 885DB0478D374A4A6517E818616996B7 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -472,6 +476,37 @@
 			};
 			name = Debug;
 		};
+		567069C5F373EA27F1BF888B6F461658 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 412B72B9EB34FE54F20C4C5096A860C3 /* LiangDemo.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/LiangDemo/LiangDemo-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LiangDemo/LiangDemo-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/LiangDemo/LiangDemo.modulemap";
+				PRODUCT_MODULE_NAME = LiangDemo;
+				PRODUCT_NAME = LiangDemo;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		6C5F47D5CCBAA7A09D28D6772A3445AF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 17A1F62D8DA3C427DDB8BDC203A9501B /* Pods-LiangDemo_Tests.debug.xcconfig */;
@@ -503,37 +538,6 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
-		};
-		766E1E386D61E1446CD37CFC72BADF73 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = BCEE143343DF174B307C206BA7E72D19 /* LiangDemo.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/LiangDemo/LiangDemo-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/LiangDemo/LiangDemo-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/LiangDemo/LiangDemo.modulemap";
-				PRODUCT_MODULE_NAME = LiangDemo;
-				PRODUCT_NAME = LiangDemo;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
 		};
 		93168796E864CC80EA2B86BA66CF090B /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -567,6 +571,36 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
+		};
+		9C22B60747284F892230079132BA2E08 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 084D7211E129FE7A5A974105C0E5E73B /* LiangDemo.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/LiangDemo/LiangDemo-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LiangDemo/LiangDemo-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/LiangDemo/LiangDemo.modulemap";
+				PRODUCT_MODULE_NAME = LiangDemo;
+				PRODUCT_NAME = LiangDemo;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
 		};
 		9D0BBB0C98B6A7692F0927D6C585AD83 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -627,36 +661,6 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		BEE8C598C1E6776BBE5F00766BBCF9F9 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2EDD6DE1332813CB573B2A34790A0586 /* LiangDemo.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/LiangDemo/LiangDemo-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/LiangDemo/LiangDemo-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/LiangDemo/LiangDemo.modulemap";
-				PRODUCT_MODULE_NAME = LiangDemo;
-				PRODUCT_NAME = LiangDemo;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -737,11 +741,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3641605F0EBAE3C1ACA8B738348BCB52 /* Build configuration list for PBXNativeTarget "LiangDemo" */ = {
+		32BAB6030C2327C31D7CA76903C067A5 /* Build configuration list for PBXNativeTarget "LiangDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				BEE8C598C1E6776BBE5F00766BBCF9F9 /* Debug */,
-				766E1E386D61E1446CD37CFC72BADF73 /* Release */,
+				9C22B60747284F892230079132BA2E08 /* Debug */,
+				567069C5F373EA27F1BF888B6F461658 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

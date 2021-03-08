@@ -1,18 +1,15 @@
 {
   "name": "LiangDemo",
   "version": "0.1.0",
-  "summary": "A short description of LiangDemo.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/981851091@qq.com/LiangDemo",
-  "license": {
-    "type": "MIT",
-    "file": "LICENSE"
-  },
+  "summary": "LiangDemo for test.",
+  "description": "TODO: LiangDemo for test.",
+  "homepage": "https://github.com/Liwenliang1989",
+  "license": "MIT",
   "authors": {
     "981851091@qq.com": "981851091@qq.com"
   },
   "source": {
-    "git": "https://github.com/981851091@qq.com/LiangDemo.git",
+    "git": "https://github.com/Liwenliang1989/LiangDemo.git",
     "tag": "0.1.0"
   },
   "platforms": {

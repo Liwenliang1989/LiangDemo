@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "WLBaseView.h"
 
 FOUNDATION_EXPORT double LiangDemoVersionNumber;
 FOUNDATION_EXPORT const unsigned char LiangDemoVersionString[];
